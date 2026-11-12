@@ -9,7 +9,7 @@ build scripts for [libplacebo](https://github.com/haasn/libplacebo)
 ### Swift Package Manager
 
 ```
-https://github.com/mpvkit/libplacebo-build.git
+https://github.com/aagedal/libplacebo-build.git
 ```
 
 ## How to build

@@ -26,13 +26,13 @@ enum Library: String, CaseIterable, BuildLibrary {
         case .libdovi:
             return "3.3.2"
         case .vulkan:
-            return "1.4.1"
+            return "1.4.2"
         case .libshaderc:  // compiling GLSL (OpenGL Shading Language) shaders into SPIR-V (Standard Portable Intermediate Representation - Vulkan) code
             return "2025.5.0"
         case .spirvcross:  // parsing and converting SPIR-V to other shader languages.
             return "vulkan-sdk-1.4.309.0"
         case .libplacebo:
-            return "v7.360.1"
+            return "v7.387.0"
         }
     }
 
@@ -91,8 +91,8 @@ enum Library: String, CaseIterable, BuildLibrary {
             return [
                 .target(
                     name: "Libplacebo",
-                    url: "https://github.com/mpvkit/libplacebo-build/releases/download/\(BuildRunner.options!.releaseVersion)/Libplacebo.xcframework.zip",
-                    checksum: "https://github.com/mpvkit/libplacebo-build/releases/download/\(BuildRunner.options!.releaseVersion)/Libplacebo.xcframework.checksum.txt"
+                    url: "https://github.com/aagedal/libplacebo-build/releases/download/\(BuildRunner.options!.releaseVersion)/Libplacebo.xcframework.zip",
+                    checksum: "https://github.com/aagedal/libplacebo-build/releases/download/\(BuildRunner.options!.releaseVersion)/Libplacebo.xcframework.checksum.txt"
                 ),
             ]
         default:
